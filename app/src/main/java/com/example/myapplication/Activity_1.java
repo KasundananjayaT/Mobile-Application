@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class Activity_1 extends AppCompatActivity {
 
     protected String UserName,Password;
-    public int id=0;
+    public int id=0;//add values as o
    public String [] FirstNameWithInt={"Dhananjaya T.K","Udathenna HGU"};
    public String [] FullName={"Kasun Dhanajaya","Hasthika Udathenna"};
    private String[] UName={"IM/2020/045","IM/2020/054"};
