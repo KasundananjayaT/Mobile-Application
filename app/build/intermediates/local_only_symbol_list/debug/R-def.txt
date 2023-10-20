@@ -36,6 +36,7 @@ id textView7
 id textView8
 id textView9
 layout activity_login
+layout home2
 layout login_page
 layout staff_home
 layout std_home
