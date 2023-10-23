@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:2:1-43:12
-INJECTED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:2:1-43:12
+ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:2:1-44:12
 MERGED from [androidx.databinding:viewbinding:8.1.1] /Users/kasun/.gradle/caches/transforms-3/f82b3c93bcd0269fdbdec2ba76fe5f8c/transformed/viewbinding-8.1.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.4] /Users/kasun/.gradle/caches/transforms-3/11333839809bffd8e6ac9bccfe156336/transformed/navigation-common-2.7.4/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.4] /Users/kasun/.gradle/caches/transforms-3/5def91db2a1b8e408838ab8fad6ac5f6/transformed/navigation-runtime-2.7.4/AndroidManifest.xml:17:1-22:12
@@ -98,8 +98,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/kasun/.gr
 	xmlns:android
 		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:5:5-41:19
-INJECTED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:5:5-41:19
+ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:5:5-42:19
+INJECTED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:5:5-42:19
 MERGED from [com.google.android.material:material:1.10.0] /Users/kasun/.gradle/caches/transforms-3/200583327a8d345926cc09e5cb01257b/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] /Users/kasun/.gradle/caches/transforms-3/200583327a8d345926cc09e5cb01257b/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kasun/.gradle/caches/transforms-3/458507d5d28ed9d75d15683261ac51b6/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -145,51 +145,51 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/kasun/.gradle/caches
 	android:dataExtractionRules
 		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:7:9-65
 activity#com.example.myapplication.Ac
-ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:15:9-19:58
+ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:16:9-20:58
 	android:label
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:18:13-52
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:19:13-52
 	android:exported
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:17:13-37
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:18:13-37
 	android:theme
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:19:13-55
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:20:13-55
 	android:name
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:16:13-31
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:17:13-31
 activity#com.example.myapplication.Student_result
-ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:20:9-23:69
+ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:21:9-24:69
 	android:label
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:23:13-66
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:24:13-66
 	android:exported
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:22:13-37
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:21:13-43
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:22:13-43
 activity#com.example.myapplication.Activity_2
-ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:24:9-26:40
+ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:26:13-37
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:25:13-39
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:26:13-39
 meta-data#com.google.android.actions
-ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:28:9-30:44
+ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:29:9-31:44
 	android:resource
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:30:13-41
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:31:13-41
 	android:name
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:29:13-54
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:30:13-54
 activity#com.example.myapplication.Activity_1
-ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:32:9-40:20
+ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:33:9-41:20
 	android:exported
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:34:13-36
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:33:13-39
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:34:13-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:35:13-39:29
+ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:36:17-69
+ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:36:25-66
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:38:17-77
+ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:39:27-74
 uses-sdk
 INJECTED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml

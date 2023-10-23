@@ -20,7 +20,7 @@
 15-->[androidx.core:core:1.9.0] /Users/kasun/.gradle/caches/transforms-3/0e2111bda17921a3e330548840228749/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 16
 17    <application
-17-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:5:5-41:19
+17-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:5:5-42:19
 18        android:allowBackup="true"
 18-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -43,52 +43,52 @@
 29        android:theme="@style/Theme.MyApplication" >
 29-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:13:9-51
 30        <activity
-30-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:15:9-19:58
+30-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:16:9-20:58
 31            android:name="com.example.myapplication.Ac"
-31-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:16:13-31
+31-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:17:13-31
 32            android:exported="false"
-32-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:17:13-37
+32-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:18:13-37
 33            android:label="@string/title_activity_"
-33-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:18:13-52
+33-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:19:13-52
 34            android:theme="@style/Theme.MyApplication" />
-34-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:19:13-55
+34-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:20:13-55
 35        <activity
-35-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:20:9-23:69
+35-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:21:9-24:69
 36            android:name="com.example.myapplication.Student_result"
-36-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:21:13-43
+36-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:22:13-43
 37            android:exported="false"
-37-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:22:13-37
+37-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:23:13-37
 38            android:label="@string/title_activity_student_result" />
-38-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:23:13-66
+38-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:24:13-66
 39        <activity
-39-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:24:9-26:40
+39-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:25:9-27:40
 40            android:name="com.example.myapplication.Activity_2"
-40-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:25:13-39
+40-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:26:13-39
 41            android:exported="false" />
-41-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:26:13-37
+41-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:27:13-37
 42
 43        <meta-data
-43-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:28:9-30:44
+43-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:29:9-31:44
 44            android:name="com.google.android.actions"
-44-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:29:13-54
+44-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:30:13-54
 45            android:resource="@xml/home" />
-45-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:30:13-41
+45-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:31:13-41
 46
 47        <activity
-47-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:32:9-40:20
+47-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:33:9-41:20
 48            android:name="com.example.myapplication.Activity_1"
-48-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:33:13-39
+48-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:34:13-39
 49            android:exported="true" >
-49-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:34:13-36
+49-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:35:13-36
 50            <intent-filter>
-50-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:35:13-39:29
+50-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:36:13-40:29
 51                <action android:name="android.intent.action.MAIN" />
-51-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:36:17-69
-51-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:36:25-66
+51-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:37:17-69
+51-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:37:25-66
 52
 53                <category android:name="android.intent.category.LAUNCHER" />
-53-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:38:17-77
-53-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:38:27-74
+53-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:39:17-77
+53-->/Users/kasun/Documents/MyApplication/app/src/main/AndroidManifest.xml:39:27-74
 54            </intent-filter>
 55        </activity>
 56        <activity

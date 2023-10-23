@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Activity_2 extends AppCompatActivity {
 
@@ -40,9 +41,10 @@ public class Activity_2 extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener(){
         @Override
         public void onClick(View v){
-            Intent intent= new Intent(Activity_2.this, Activity_3.class);
-            //intent.putExtra("ID1",id);
-            startActivity(intent);
+            Intent intent2 = new Intent(Activity_2.this, Student_result.class);
+            startActivity(intent2);
+            Toast.makeText(Activity_2.this,"Clicked",Toast.LENGTH_SHORT).show();
+
         }
         }
         );
