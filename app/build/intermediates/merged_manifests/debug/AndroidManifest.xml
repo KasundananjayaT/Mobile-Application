@@ -28,6 +28,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
+            android:name="com.example.myapplication.Ac"
+            android:exported="false"
+            android:label="@string/title_activity_"
+            android:theme="@style/Theme.MyApplication" />
+        <activity
+            android:name="com.example.myapplication.Student_result"
+            android:exported="false"
+            android:label="@string/title_activity_student_result" />
+        <activity
             android:name="com.example.myapplication.Activity_2"
             android:exported="false" />
 
@@ -44,6 +53,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="androidx.activity.ComponentActivity"
+            android:exported="true" />
+        <activity
+            android:name="androidx.compose.ui.tooling.PreviewActivity"
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -59,6 +74,13 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
 
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"

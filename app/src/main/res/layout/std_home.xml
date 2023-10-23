@@ -80,7 +80,7 @@
         app:layout_constraintVertical_bias="0.267" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/regYear1btn"
         android:layout_width="346dp"
         android:layout_height="40dp"
         android:text="Registration Year I"
@@ -92,7 +92,7 @@
         app:layout_constraintVertical_bias="0.581" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/regYear2btn"
         android:layout_width="346dp"
         android:layout_height="40dp"
         android:text="Registration Year II"
@@ -104,40 +104,28 @@
         app:layout_constraintVertical_bias="0.675" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/regYear3btn"
         android:layout_width="346dp"
         android:layout_height="40dp"
         android:text="Registration Year III"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="@+id/regYear2btn"
+        app:layout_constraintStart_toStartOf="@+id/regYear2btn"
         app:layout_constraintTop_toBottomOf="@+id/textView13"
         app:layout_constraintVertical_bias="0.766" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/regYear4btn"
         android:layout_width="346dp"
         android:layout_height="40dp"
         android:text="Registration Year IV"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button4"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="@+id/regYear3btn"
+        app:layout_constraintStart_toStartOf="@+id/regYear3btn"
         app:layout_constraintTop_toBottomOf="@+id/textView13"
         app:layout_constraintVertical_bias="0.861" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="346dp"
-        android:layout_height="40dp"
-        android:text="Repeat Registration"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.946" />
+
 
     <TextView
         android:id="@+id/NameWithIniTxt"

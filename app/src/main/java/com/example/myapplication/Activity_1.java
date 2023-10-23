@@ -87,7 +87,7 @@ public class Activity_1 extends AppCompatActivity {
                 {
                     if(CheckRadio().equals("Student")){
                         Intent intent= new Intent(Activity_1.this, Activity_2.class);
-                        intent.putExtra("ID",id);
+                        intent.putExtra("ID1",id);
                         startActivity(intent);
                     }
                     if(CheckRadio().equals("Staff")){
