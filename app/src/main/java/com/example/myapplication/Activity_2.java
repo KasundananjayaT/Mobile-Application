@@ -41,10 +41,9 @@ public class Activity_2 extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener(){
         @Override
         public void onClick(View v){
-            Intent intent2 = new Intent(Activity_2.this, Student_result.class);
-            startActivity(intent2);
-            Toast.makeText(Activity_2.this,"Clicked",Toast.LENGTH_SHORT).show();
-
+            Intent intent = new Intent(Activity_2.this, Student_result.class);
+            intent.putExtra("ID1",id);
+            startActivity(intent);
         }
         }
         );
