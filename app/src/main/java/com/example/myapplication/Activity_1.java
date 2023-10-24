@@ -10,6 +10,10 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+
 
 public class Activity_1 extends AppCompatActivity {
 
@@ -34,6 +38,11 @@ public class Activity_1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_page);
+
+        setContentView(R.layout.add_result);
+
+        // Call the custom method to set up the Spinner
+        setupGradeSpinner();
         ValidPassword();
     }
 
@@ -145,5 +154,21 @@ public class Activity_1 extends AppCompatActivity {
     public String  getAcademicYear(int ID){
         return (AcadamicYear[ID]);
     }
-}
 
+
+    //IM/2020/054
+    private void setupGradeSpinner() {
+        // Initialize the Spinner
+        Spinner gradeSpinner = findViewById(R.id.grade);
+
+        // Create an array of grade options (A, B, C)
+        String[] gradeOptions = {"A+","A","A-","B+","B","B-","C+","C","C-","D","E","AB"};
+
+        // Create an ArrayAdapter to populate the Spinner with the grade options
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, gradeOptions);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        // Set the adapter to the Spinner
+        gradeSpinner.setAdapter(adapter);
+    }
+}

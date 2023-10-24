@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_1">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:context=".Activity_1"
+        tools:layout_editor_absoluteX="-165dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Academic Year 2020/2021\n\nINTE 22283 \n Mobile Application Development"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"></TextView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="320dp" />
+
+            <EditText
+                android:id="@+id/editTextText"
+                android:layout_width="153dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Name"
+                tools:layout_editor_absoluteX="172dp"
+                tools:layout_editor_absoluteY="189dp" />
+
+            <Spinner
+                android:id="@+id/grade"
+                android:layout_width="146dp"
+                android:layout_height="46dp"
+                android:layout_weight="4"
+                android:padding="10sp"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="119dp"
+                tools:layout_editor_absoluteY="254dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="93dp"
+                android:layout_height="41dp"
+                android:background="#1E000000"
+                android:gravity="center"
+                android:text="ID Number"
+                android:textAlignment="center"
+                tools:layout_editor_absoluteX="69dp"
+                tools:layout_editor_absoluteY="189dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="409dp"
+                android:layout_height="360dp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="370dp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@android:color/white"
+                    >
+
+                    <TableRow android:background="@color/colorGreen">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="course\nCode"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/white"
+                            android:textSize="14sp"
+
+                            ></TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="Attempt"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/white"
+                            android:textSize="14sp"></TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="Grade"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/white"
+                            android:textSize="14sp"></TextView>
+                    </TableRow>
+                </TableLayout>
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="170dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="40dp"
+                    android:background="@android:color/white">
+
+
+                    <TableRow android:background="@color/white">
+
+                        <androidx.core.widget.NestedScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fillViewport="true">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" />
+                        </androidx.core.widget.NestedScrollView>
+
+                        <androidx.core.widget.NestedScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:fillViewport="true">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical" />
+                        </androidx.core.widget.NestedScrollView>
+
+
+                    </TableRow>
+
+                    <TableRow android:background="@color/white">
+
+                        <TextView
+                            android:layout_width="203dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="INTE 1123"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+
+                    </TableRow>
+
+                    <TableRow android:background="@color/white">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="INTE 1123"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="FOC"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+                    </TableRow>
+
+                    <TableRow android:background="@color/white">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="INTE 1123"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="FOC"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+
+                    </TableRow>
+                    <TableRow android:background="@color/white">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="INTE 1123"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="FOC"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+
+                    </TableRow>
+                    <TableRow android:background="@color/white">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="INTE 1123"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="FOC"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+                    </TableRow>
+                    <TableRow android:background="@color/white">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="INTE 1123"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="FOC"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+                    </TableRow>
+
+                    <TableRow android:background="@color/white">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="INTE 1123"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="FOC"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+                    </TableRow>
+                    <TableRow android:background="@color/white">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="INTE 1123"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:padding="10sp"
+                            android:text="FOC"
+                            android:textAlignment="textStart"
+                            android:textColor="@android:color/black"
+                            android:textSize="14sp"></TextView>
+                    </TableRow>
+                    <TableRow android:background="@color/white"/>
+                    <TableRow android:background="@color/white"/>
+                    <TableRow android:background="@color/white"/>
+                </TableLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
