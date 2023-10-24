@@ -28,11 +28,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
-            android:name="com.example.myapplication.Ac"
-            android:exported="false"
-            android:label="@string/title_activity_"
-            android:theme="@style/Theme.MyApplication" />
-        <activity
             android:name="com.example.myapplication.Student_result"
             android:exported="false"
             android:label="@string/title_activity_student_result" />

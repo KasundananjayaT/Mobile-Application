@@ -9,624 +9,643 @@
     <RelativeLayout
         android:id="@+id/relativeLayout2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"
         tools:context=".Activity_1"
-        tools:layout_editor_absoluteX="-165dp">
+        >
 
-        <TableLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="120dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginBottom="40dp"
-            android:background="@android:color/white"
-            >
+            android:layout_height="match_parent">
 
-            <TableRow android:background="@color/colorGreen">
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="course\nCode"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/white"
-                    android:textSize="14sp"
-
-                    ></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="Course\nname"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/white"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="Attempt"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/white"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="Grade"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/white"
-                    android:textSize="14sp"></TextView>
-            </TableRow>
-        </TableLayout>
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="170dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginBottom="40dp"
-            android:background="@android:color/white">
-
-
-            <TableRow android:background="@color/white">
-
-                <androidx.core.widget.NestedScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:fillViewport="true">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical" />
-                </androidx.core.widget.NestedScrollView>
-
-                <androidx.core.widget.NestedScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:fillViewport="true">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical" />
-                </androidx.core.widget.NestedScrollView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
+            <ProgressBar
+                android:id="@+id/GPABar"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:indeterminateOnly="false"
+                android:progressDrawable="@drawable/circle"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.252"
+                tools:progress="45" />
 
             <TextView
-                android:layout_width="0dp"
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:padding="10sp"
-                android:text="FOC"
-                android:textAlignment="textStart"
-                android:textColor="@android:color/black"
-                android:textSize="14sp"></TextView>
+                android:text="CGPA is"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.297" />
+
             <TextView
-                android:layout_width="0dp"
+                android:id="@+id/GpaValTxt"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="4"
-                android:padding="10sp"
-                android:text="1"
-                android:textAlignment="textEnd"
-                android:textColor="@android:color/black"
-                android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-
-
-            </TableRow>
-
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-            </TableRow>
-
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-            </TableRow>
-
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-            </TableRow>
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-            </TableRow>
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-            </TableRow>
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-            </TableRow>
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-            </TableRow>
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-            </TableRow>
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-            </TableRow>
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-            </TableRow>
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-            </TableRow>
-            <TableRow android:background="@color/white">
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="INTE 1123"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="FOC"
-                    android:textAlignment="textStart"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="1"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:padding="10sp"
-                    android:text="A"
-                    android:textAlignment="textEnd"
-                    android:textColor="@android:color/black"
-                    android:textSize="14sp"></TextView>
-            </TableRow>
-        </TableLayout>
+                android:text="3.62"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.356" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginBottom="20dp"
+            android:text="1st"
+            android:textSize="34sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="350dp"
+            android:text="Year"
+            android:textSize="34sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="395dp"
+            android:layout_marginBottom="20dp"
+            android:text="Result"
+            android:textSize="30sp"
+            android:textStyle="normal"></TextView>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Year 01 Academic Year 2020/2021"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:layout_marginTop="50dp"></TextView>
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="0dp"
+                android:background="@android:color/white">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:padding="10sp"
+                        android:text="Code"
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="13sp"></TextView>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:padding="10sp"
+                        android:text="name"
+                        android:textAlignment="textStart"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="13sp"></TextView>
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:padding="10sp"
+                        android:text="Grade"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="13sp"></TextView>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
 
     </RelativeLayout>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="500dp">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    >
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/white">
+
+                        <TableRow android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="INTE 12223"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="Database Design"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/DatabaseTxt"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text=""
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/white">
+
+                        <TableRow android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="INTE 12213"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="Java programming"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/JavaProgrammingTxt"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="A"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/white">
+
+                        <TableRow android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="MGT 12253"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="Accounting concept"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/AccountingTxt"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="A"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+                        </TableRow>
+                    </TableLayout>
+
+
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/white">
+
+                        <TableRow android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="INTE 12232"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="Optimization methods"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/ComputerNetworkTxt"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="A"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/white">
+
+                        <TableRow android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="MGTE 12232"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="Technology"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/TechnologyTxt"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="A"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/white">
+
+                        <TableRow android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="INTE 11232"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="Computing"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/ComputingTxt"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="A"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/white">
+
+                        <TableRow android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="MAT 12212"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="Mathematics"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/MathematicsTxt"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="A"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/white">
+
+                        <TableRow android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="MGT 11213"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="Statistics"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/StatTxt"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="A"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/white">
+
+                        <TableRow android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="INTE 11313"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="Programming"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/ProgrammingTxt"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="A"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/white">
+
+                        <TableRow android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="INTE 11213"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="Computer Basics"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:id="@+id/Co"
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="A"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+                        </TableRow>
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/white">
+
+                        <TableRow android:background="@color/white">
+
+                            <TextView
+                                android:layout_width="50dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="INTE 11122"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="English"
+                                android:textAlignment="textStart"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="4"
+                                android:padding="10sp"
+                                android:text="A"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/black"
+                                android:textSize="12.5sp"></TextView>
+                        </TableRow>
+                    </TableLayout>
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </ScrollView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
