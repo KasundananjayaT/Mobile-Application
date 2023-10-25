@@ -14,18 +14,23 @@ import android.widget.Toast;
 public class Activity_1 extends AppCompatActivity {
 
     protected String UserName,Password;
-    public int id=0;
+    public int id=0;//add values as o
    public String [] FirstNameWithInt={"Dhananjaya T.K","Udathenna HGU"};
    public String [] FullName={"Kasun Dhanajaya","Hasthika Udathenna"};
    private String[] UName={"IM/2020/045","IM/2020/054"};
    private String[] PASSWORD={"123","456"};
-   public String[] Subject1={"A","A"};
-   public String[] Subject2={"A-","A"};
-   public String[] Subject3={"A","A"};
-    public String[] Subject4={"A+","A"};
-    public String[] Subject5={"A","A"};
-    public String[] Subject6={"A","A"};
-    public String[] Subject7={"A","A"};
+   public String[] JavaProgramming={"A-","A"};
+   public String[] Accounting={"A-","A"};
+   public String[] optimization={"A","A"};
+    public String[] ComputerNetworks={"A+","A"};
+    public String[] Technology={"A","A"};
+    public String[] Math={"A","A"};
+    public String[] programming={"A","A"};
+    public String[] BasicOfcomputing={"A","A"};
+    public String[] Stat={"A","A"};
+    public String[] Database={"A-","A"};
+
+
     public String[] AcadamicYear={"2020/2021","2020/2021"};
     public String[] Email={"Kasun.dananjaya\n297@gmail.com","Ussthika.Hadathenna\n@gmail.com"};
 
@@ -87,7 +92,7 @@ public class Activity_1 extends AppCompatActivity {
                 {
                     if(CheckRadio().equals("Student")){
                         Intent intent= new Intent(Activity_1.this, Activity_2.class);
-                        intent.putExtra("ID",id);
+                        intent.putExtra("ID1",id);
                         startActivity(intent);
                     }
                     if(CheckRadio().equals("Staff")){
@@ -115,35 +120,57 @@ public class Activity_1 extends AppCompatActivity {
     public String getFullName(int ID){
         return (FullName[ID]);
     }
-    public String getSub1(int ID){
-        return (Subject1[ID]);
+    public String getDataBaseRlt(int ID){
+        return (Database[ID]);
     }
-    public String getSub2(int ID){
-        return (Subject2[ID]);
+    public String getJavaRlt(int ID){
+        return (JavaProgramming[ID]);
     }
-    public String getSub3(int ID){
-        return (Subject3[ID]);
+    public String getAccountingRlt(int ID){
+        return (Accounting[ID]);
     }
-    public String getSub4(int ID){
-        return (Subject4[ID]);
+    public String getOptimization(int ID){
+        return (optimization[ID]);
     }
-    public String getSub5(int ID){
-        return (Subject5[ID]);
+    public String getComputerNetworksRlt(int ID){
+        return (ComputerNetworks[ID]);
     }
-    public String getSub6(int ID){
-        return (Subject6[ID]);
+    public String getIndustryRlt(int ID){
+        return (Technology[ID]);
     }
-    public String getSub7(int ID){
-        return (Subject7[ID]);
+    public String getMathRlt(int ID){
+        return (Math[ID]);
+    }
+    public String getStatRlt(int ID){
+        return (Stat[ID]);
+    }
+    public String getProgrammingRlt(int ID){
+        return (programming[ID]);
+    }
+    public String getFundamentalOfRlt(int ID){
+
+        return (BasicOfcomputing[ID]);
     }
     public String getUname(int ID){
         return (UName[ID]);
     }
     public String getEmail(int ID){
+
         return (Email[ID]);
     }
     public String  getAcademicYear(int ID){
+
         return (AcadamicYear[ID]);
+    }
+
+    public void setDatabase(int id,String Value) {
+        Database[id]=Value;
+    }
+    public void setJavaProgramming(int id, String Value){
+        JavaProgramming[id]=Value;
+    }
+    public void setAccounting(int id , String Value){
+        Accounting[id]=Value;
     }
 }
 

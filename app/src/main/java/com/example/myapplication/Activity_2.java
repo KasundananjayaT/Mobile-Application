@@ -4,8 +4,12 @@ import static java.lang.Integer.parseInt;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Activity_2 extends AppCompatActivity {
 
@@ -30,7 +34,19 @@ public class Activity_2 extends AppCompatActivity {
 
         TextView AcdmeicYaer= (TextView) findViewById(R.id.AcademicYearTxt);
         AcdmeicYaer.setText(Login.getAcademicYear(id));
-
-
+        year01Btn(id);
     }
+    public void year01Btn(int id){
+        Button btn= (Button) findViewById(R.id.regYear1btn);
+        btn.setOnClickListener(new View.OnClickListener(){
+        @Override
+        public void onClick(View v){
+            Intent intent = new Intent(Activity_2.this, Student_result.class);
+            intent.putExtra("ID1",id);
+            startActivity(intent);
+        }
+        }
+        );
+    }
+
 }

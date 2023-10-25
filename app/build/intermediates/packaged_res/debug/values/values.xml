@@ -3,8 +3,15 @@
     <color name="black">#FF000000</color>
     <color name="colorGreen">#96c896</color>
     <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <string name="app_name">My Application</string>
     <string name="col1">Course Code</string>
+    <string name="title_activity_">Ac</string>
+    <string name="title_activity_student_result">Student_result</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
     <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
         
         
